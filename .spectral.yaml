@@ -1,0 +1,9 @@
+extends: ["spectral:oas"]
+
+rules:
+  # Tài liệu nội bộ cho lab — không cần ràng buộc contact/license/tags mô tả.
+  info-contact: off
+  info-license: off
+  license-url: off
+  oas3-unused-component: warn
+  operation-tag-defined: warn

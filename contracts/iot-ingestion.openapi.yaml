@@ -191,6 +191,7 @@ paths:
       tags: [readings]
       operationId: getReadingById
       summary: Lấy chi tiết một bản ghi cảm biến
+      description: Trả về chi tiết một bản ghi telemetry theo reading_id, yêu cầu bearer token.
       parameters:
         - name: reading_id
           in: path
